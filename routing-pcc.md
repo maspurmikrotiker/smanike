@@ -79,3 +79,21 @@ Action
 action : mark-routing 
 new-routing-mark : line-ISP2
 ```
+,
+## lanjut ke menu IP > Routes
+klik add (+)
+```bash
+General :
+dst-address : 0.0.0.0/0
+gateway : 192.168.1.1 (IP ISP 1)
+routing mark : line-ISP1
+```
+,
+kemudian buat ip routing lagi ke isp 2
+klik add (+)
+```bash
+General :
+dst-address : 0.0.0.0/0
+gateway : 192.168.2.1 (IP ISP 1)
+routing mark : line-ISP2
+```
