@@ -94,6 +94,6 @@ klik add (+)
 ```bash
 General :
 dst-address : 0.0.0.0/0
-gateway : 192.168.2.1 (IP ISP 1)
+gateway : 192.168.2.1 (IP ISP 2)
 routing mark : line-ISP2
 ```
