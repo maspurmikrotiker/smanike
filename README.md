@@ -26,3 +26,4 @@ nano /etc/apt/sources.list
 ```
 #### gunakan tanda garis \ utk replace,
 ### 
+### I
