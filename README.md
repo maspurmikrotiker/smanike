@@ -1,5 +1,9 @@
 # cara membuat server Moodle
 # =============
+### Cek nama interface
+```bash
+ip link
+```
 ### Setting IP Address di Linux Ubuntu
 ```bash
 nano /etc/netplan/00-installer-config.yaml
@@ -8,12 +12,14 @@ nano /etc/netplan/00-installer-config.yaml
 sebagai contoh:
 ```bash
 network:
+  version: 2
+  renderer: networkd
   ethernets:
-    enp0s3:
-      dhcp4: true
     enp0s8:
       addresses: [172.16.10.11/24]
-  version: 2
+      gateway4: 172.16.10.1
+      nameservers:
+        addresses: [8.8.8.8, 9.9.9.9]
 ```
 ### setting timezone
 ```bash
