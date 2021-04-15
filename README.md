@@ -26,4 +26,5 @@ nano /etc/apt/sources.list
 ```
 #### gunakan tanda garis \ utk replace,
 ### 
-### I
+### Instalasi web server, php, database
+Panduan [a link](https://websiteforstudents.com/how-to-install-moodle-on-ubuntu-20-04-18-04-with-nginx-and-lets-encrypt/)
