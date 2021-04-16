@@ -2,5 +2,5 @@
 #
     location /dataroot/ {
         internal;
-        alias /www/wwwroot/smpn1.dimalang.my.id/moodledata;
+        alias /www/wwwroot/namadomain/moodledata;
     }
