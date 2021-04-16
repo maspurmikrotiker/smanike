@@ -21,6 +21,10 @@ network:
       nameservers:
         addresses: [8.8.8.8, 9.9.9.9]
 ```
+kemudian apply
+```bash
+netplan apply
+```
 ### setting timezone
 ```bash
 timedatectl set-timezone Asia/Jakarta
