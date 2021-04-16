@@ -34,3 +34,14 @@ nano /etc/apt/sources.list
 ### 
 ### Instalasi web server, php, database
 Panduan [a link](https://websiteforstudents.com/how-to-install-moodle-on-ubuntu-20-04-18-04-with-nginx-and-lets-encrypt/)
+
+# Cara instan, install Web Server dan Optimasinya 
+
+## Ubuntu/Deepin:
+```bash
+wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && sudo bash install.sh
+```
+## Debian:
+```bash
+wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && bash install.sh
+```
